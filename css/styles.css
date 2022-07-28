@@ -31,10 +31,20 @@ body {
     letter-spacing: 0.03em;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid red;
+}
+
 /* Шапка страницы */
 
 .header {
     background-color: var(--white-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 /* Логотип */
@@ -51,11 +61,11 @@ body {
 }
 
 /* Навигация страницы */
-.nav-list,
-.work-list,
-.team-list,
 .list {
     list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .link-nav {
     color: var(--title-text-color);
@@ -85,8 +95,16 @@ body {
 }
 
 /* Основа страницы */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* Герой */
+.section.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 .hero-title {
     color: var(--white-color);
     font-weight: 900;
@@ -95,6 +113,9 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .hero-button {
     color: var(--white-color);
@@ -108,8 +129,26 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+
+    min-width: 216px;
+    padding: 10px 32px;
+    border: 0;
+    border-radius: 4px;
+    margin: auto;
 }
 
+/* Наши преимущества */
+h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+p {
+    margin: 0;
+}
 /* Чем мы занимаемся */
 .work {
     background-color: var(--second-background-color);
@@ -146,10 +185,21 @@ text-align: center;
     line-height: 1.19;
     text-align: center;
 }
+.team-img {
+    margin-bottom: 30px;
+}
+.team-text {
+    margin-bottom: 30px;
+}
 
 /* Подвал */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .logo-footer {
     color: var(--white-color);
+    margin-bottom: 20px;
 }
 .address {
     font-style: normal;
@@ -159,10 +209,12 @@ text-align: center;
 .footer-address {
     color: var(--white-color);
     text-decoration: none;
+    margin-bottom: 9px;
 }
 .footer-contacts {
     color: #FFFFFF99;
     text-decoration: none;
+    margin-bottom: 9px;
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
@@ -176,6 +228,10 @@ text-align: center;
 .portfolio {
     background-color: var(--second-background-color);
 }
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .link-button {
     color: var(--title-text-color);
     background-color: var(--bcg-color);
@@ -185,6 +241,12 @@ text-align: center;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+
+    min-width: 73px;
+    padding: 6px 32px;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 50px;
 }
 .link-button:hover,
 .link-button:focus {
@@ -199,11 +261,15 @@ text-align: center;
 .link {
     text-decoration: none;
 }
+.project-img {
+    margin-bottom: 20px;
+}
 .project-title {
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 .project-text {
     color: var(--primary-text-color);
