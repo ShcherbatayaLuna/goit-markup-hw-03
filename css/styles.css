@@ -34,7 +34,7 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid red;
@@ -205,6 +205,10 @@ text-align: center;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    margin-top: 20px;
+}
+.item:not(:last-child) {
+    margin-bottom: 9px;
 }
 .footer-address {
     color: var(--white-color);
@@ -214,7 +218,6 @@ text-align: center;
 .footer-contacts {
     color: #FFFFFF99;
     text-decoration: none;
-    margin-bottom: 9px;
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
@@ -261,14 +264,12 @@ h1 {
 .link {
     text-decoration: none;
 }
-.project-img {
-    margin-bottom: 20px;
-}
 .project-title {
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 20px;
     margin-bottom: 4px;
 }
 .project-text {
