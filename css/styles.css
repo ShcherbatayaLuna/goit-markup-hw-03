@@ -340,6 +340,9 @@ h1 {
     flex-wrap: wrap;
 }
 .project-link {
+    width: 370px;
+    border: 1px solid #EEEEEE;
+    
     background-color: var(--white-color);
 }
 .project-link:not(:nth-child(3n)) {
@@ -352,16 +355,13 @@ h1 {
     background-color: var(--white-color);
     text-decoration: none;
 }
-.link.content {
-    display: inline-block;
-    width: 370px;
-    border: 1px solid #EEEEEE;
-
-}
 .project-description {
-    margin: 20px 24px;
+    
 }
 .project-title {
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
     margin-bottom: 4px;
     
     color: var(--title-text-color);
@@ -370,6 +370,10 @@ h1 {
     letter-spacing: 0.06em;
 }
 .project-text {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
