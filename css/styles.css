@@ -355,16 +355,13 @@ h1 {
 .link.content {
     display: inline-block;
     width: 370px;
-    height: 404px;
+    border: 1px solid #EEEEEE;
 
 }
 .project-description {
-    border: 1px solid #EEEEEE;
-    border-top: 0;
-    padding: 20px 24px;
+    margin: 20px 24px;
 }
 .project-title {
-    margin-top: 0px;
     margin-bottom: 4px;
     
     color: var(--title-text-color);
