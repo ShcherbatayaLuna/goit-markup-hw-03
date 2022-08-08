@@ -90,8 +90,11 @@ body {
 .list.link {
     margin-left: auto;
 }
-.item-nav:not(:last-child) {
+/* .item-nav:not(:last-child) {
     margin-right: 50px;
+} */
+.list>.item-nav + .item-nav{
+    margin-left: 50px;
 }
 .link-nav {
     display: block;
@@ -295,8 +298,11 @@ p {
     font-size: 14px;
     line-height: 1.71;
 }
-.item:not(:last-child) {
+/* .item:not(:last-child) {
     margin-bottom: 9px;
+} */
+.list>.item + .item {
+    margin-top: 9px;
 }
 .footer-address {
     margin-bottom: 9px;
@@ -349,10 +355,12 @@ h1 {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
-.link-button:not(:nth-child(5n)) {
+/* .link-button:not(:nth-child(5n)) {
     margin-right: 8px;
+} */
+.list>.item-button + .item-button {
+    margin-left: 8px;
 }
-
 /* Проекты */
 .project {
     display: flex;
