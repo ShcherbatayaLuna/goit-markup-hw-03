@@ -24,14 +24,6 @@ borders: #EEEEEE;
     --second-background-color: #E5E5E5;
     --bcg-color: #F5F4FA;
 }
-html {
-    box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
@@ -384,7 +376,7 @@ h1 {
 }
 .project-description {
     width: 370px;
-    display: inline-block;
+    display: flex;
     border: 1px solid #EEEEEE;
 
     background-color: var(--white-color);
@@ -392,10 +384,10 @@ h1 {
 .project-title {
     margin-bottom: 4px;
     
-    color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--title-text-color);
 }
 .project-descr {
     padding: 20px 24px;
