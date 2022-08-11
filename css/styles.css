@@ -233,6 +233,9 @@ p {
 .item-work {
     flex-basis: calc((100%-60px)/3);
 }
+.item-img {
+    display: flex;
+}
 .title {
     font-size: 36px;
     line-height: 1.17;
